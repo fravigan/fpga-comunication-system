@@ -1,6 +1,8 @@
 Programmi in Verilog per un sistema di comunicazione PC <-> I2C sviluppato per un progetto di Tesi Triennale in Fisica presso l'Università Bicocca di Milano.
 I programmi qui presenti devono essere completati con IP fornite da Xilinx Vivado per il corretto funzionamento.
 
+DESIGN
+
 top.v -> modulo per collegare i moduli tra di loro
 
 laster.v -> modulo per impostare il last ai moduli successivi
@@ -12,3 +14,9 @@ i2c_master.v -> modulo per l'i2c by alexforencich (https://github.com/alexforenc
 uart_tx.v -> modulo per la trasmissione di dati tramite protocollo seriale by ben-marshall (https://github.com/ben-marshall/uart)
 
 uart_rx.v -> modulo per la ricezione di dati tramite protocollo seriale by ben-marshall (https://github.com/ben-marshall/uart)
+
+
+
+TESTBENCHES
+
+I2C_middle_tb_R_W.v -> testbench minimale per testare la ricezione di comandi e dati del middle.v
