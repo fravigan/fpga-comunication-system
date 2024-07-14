@@ -1,6 +1,6 @@
 Programmi sviluppati per un sistema di comunicazione PC <-> FPGA <-> I2C sviluppato per un progetto di Tesi Triennale in Fisica con titolo "Sistema di comunicazione ottico basato su FPGA per l’esperimento CUPID".
-I programmi qui presenti devono essere completati con IP fornite da Xilinx Vivado per il corretto funzionamento.
-Si riporta anche uno schema del design con tutti gli IP utilizzati.
+La cartella "I2C_CONNECTION_MOD" contiene il progetto compatibile con Xilinx Vivado: per utilizzarlo è necessario "linkare" nuovamente i codici in Verilog qui riportati.
+Si fornisce anche uno schema del design con tutti gli IP utilizzati.
 
 VERILOG CODES
 
