@@ -1,0 +1,715 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "100000000"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "impl_ila",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "A34236F808FC5454AB6980C3A0139A7C",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "sw_axis_tdata_to_middle",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "sw_axis_tdata_to_middle[7]"
+                                            },
+                                            {
+                                                "name": "sw_axis_tdata_to_middle[6]"
+                                            },
+                                            {
+                                                "name": "sw_axis_tdata_to_middle[5]"
+                                            },
+                                            {
+                                                "name": "sw_axis_tdata_to_middle[4]"
+                                            },
+                                            {
+                                                "name": "sw_axis_tdata_to_middle[3]"
+                                            },
+                                            {
+                                                "name": "sw_axis_tdata_to_middle[2]"
+                                            },
+                                            {
+                                                "name": "sw_axis_tdata_to_middle[1]"
+                                            },
+                                            {
+                                                "name": "sw_axis_tdata_to_middle[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 6,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_cmd_address_to_I2C",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "middle_axis_cmd_address_to_I2C[6]"
+                                            },
+                                            {
+                                                "name": "middle_axis_cmd_address_to_I2C[5]"
+                                            },
+                                            {
+                                                "name": "middle_axis_cmd_address_to_I2C[4]"
+                                            },
+                                            {
+                                                "name": "middle_axis_cmd_address_to_I2C[3]"
+                                            },
+                                            {
+                                                "name": "middle_axis_cmd_address_to_I2C[2]"
+                                            },
+                                            {
+                                                "name": "middle_axis_cmd_address_to_I2C[1]"
+                                            },
+                                            {
+                                                "name": "middle_axis_cmd_address_to_I2C[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_data_tdata_to_I2C",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "middle_axis_data_tdata_to_I2C[7]"
+                                            },
+                                            {
+                                                "name": "middle_axis_data_tdata_to_I2C[6]"
+                                            },
+                                            {
+                                                "name": "middle_axis_data_tdata_to_I2C[5]"
+                                            },
+                                            {
+                                                "name": "middle_axis_data_tdata_to_I2C[4]"
+                                            },
+                                            {
+                                                "name": "middle_axis_data_tdata_to_I2C[3]"
+                                            },
+                                            {
+                                                "name": "middle_axis_data_tdata_to_I2C[2]"
+                                            },
+                                            {
+                                                "name": "middle_axis_data_tdata_to_I2C[1]"
+                                            },
+                                            {
+                                                "name": "middle_axis_data_tdata_to_I2C[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "sw_axis_tvalid_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_tready_to_switch",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "sw_axis_tlast_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_cmd_start_to_I2C",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_cmd_read_to_I2C",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 8,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_cmd_write_to_I2C",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 9,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_cmd_write_multiple_to_I2C",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_cmd_stop_to_I2C",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe11",
+                                "id": 11,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_cmd_valid_to_I2C",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe12",
+                                "id": 12,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "I2C_axis_cmd_ready_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe13",
+                                "id": 13,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 13,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_data_tvalid_to_I2C",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe14",
+                                "id": 14,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 14,
+                                "nets": [
+                                    {
+                                        "name": "I2C_axis_data_tready_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe15",
+                                "id": 15,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 15,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_data_tlast_to_I2C",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe16",
+                                "id": 16,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 16,
+                                "nets": [
+                                    {
+                                        "name": "I2C_busy_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe17",
+                                "id": 17,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 17,
+                                "nets": [
+                                    {
+                                        "name": "I2C_bus_control_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe18",
+                                "id": 18,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 18,
+                                "nets": [
+                                    {
+                                        "name": "I2C_bus_active_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe19",
+                                "id": 19,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 19,
+                                "nets": [
+                                    {
+                                        "name": "I2C_missed_ack_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe20",
+                                "id": 20,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 20,
+                                "nets": [
+                                    {
+                                        "name": "master_I2C_axis_data_tdata_to_middle",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "master_I2C_axis_data_tdata_to_middle[7]"
+                                            },
+                                            {
+                                                "name": "master_I2C_axis_data_tdata_to_middle[6]"
+                                            },
+                                            {
+                                                "name": "master_I2C_axis_data_tdata_to_middle[5]"
+                                            },
+                                            {
+                                                "name": "master_I2C_axis_data_tdata_to_middle[4]"
+                                            },
+                                            {
+                                                "name": "master_I2C_axis_data_tdata_to_middle[3]"
+                                            },
+                                            {
+                                                "name": "master_I2C_axis_data_tdata_to_middle[2]"
+                                            },
+                                            {
+                                                "name": "master_I2C_axis_data_tdata_to_middle[1]"
+                                            },
+                                            {
+                                                "name": "master_I2C_axis_data_tdata_to_middle[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe21",
+                                "id": 21,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 21,
+                                "nets": [
+                                    {
+                                        "name": "master_I2C_axis_data_tvalid_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe22",
+                                "id": 22,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 22,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_data_tready_to_master_I2C",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe23",
+                                "id": 23,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 23,
+                                "nets": [
+                                    {
+                                        "name": "master_I2C_axis_data_tlast_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe24",
+                                "id": 24,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 24,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_tdata_to_fifo2",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "middle_axis_tdata_to_fifo2[7]"
+                                            },
+                                            {
+                                                "name": "middle_axis_tdata_to_fifo2[6]"
+                                            },
+                                            {
+                                                "name": "middle_axis_tdata_to_fifo2[5]"
+                                            },
+                                            {
+                                                "name": "middle_axis_tdata_to_fifo2[4]"
+                                            },
+                                            {
+                                                "name": "middle_axis_tdata_to_fifo2[3]"
+                                            },
+                                            {
+                                                "name": "middle_axis_tdata_to_fifo2[2]"
+                                            },
+                                            {
+                                                "name": "middle_axis_tdata_to_fifo2[1]"
+                                            },
+                                            {
+                                                "name": "middle_axis_tdata_to_fifo2[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe25",
+                                "id": 25,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 25,
+                                "nets": [
+                                    {
+                                        "name": "master_fifo2_axis_tdata_to_uart",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "master_fifo2_axis_tdata_to_uart[7]"
+                                            },
+                                            {
+                                                "name": "master_fifo2_axis_tdata_to_uart[6]"
+                                            },
+                                            {
+                                                "name": "master_fifo2_axis_tdata_to_uart[5]"
+                                            },
+                                            {
+                                                "name": "master_fifo2_axis_tdata_to_uart[4]"
+                                            },
+                                            {
+                                                "name": "master_fifo2_axis_tdata_to_uart[3]"
+                                            },
+                                            {
+                                                "name": "master_fifo2_axis_tdata_to_uart[2]"
+                                            },
+                                            {
+                                                "name": "master_fifo2_axis_tdata_to_uart[1]"
+                                            },
+                                            {
+                                                "name": "master_fifo2_axis_tdata_to_uart[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe26",
+                                "id": 26,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 26,
+                                "nets": [
+                                    {
+                                        "name": "fifo2_axis_tready_to_middle",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe27",
+                                "id": 27,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 27,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_tlast_to_fifo2",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe28",
+                                "id": 28,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 28,
+                                "nets": [
+                                    {
+                                        "name": "master_fifo2_axis_tvalid_to_uart",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe29",
+                                "id": 29,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 29,
+                                "nets": [
+                                    {
+                                        "name": "uart_axis_tready_to_fifo2",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe30",
+                                "id": 30,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 30,
+                                "nets": [
+                                    {
+                                        "name": "master_fifo2_axis_tlast_to_uart_1",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe31",
+                                "id": 31,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 31,
+                                "nets": [
+                                    {
+                                        "name": "middle_axis_tvalid_to_fifo2",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe32",
+                                "id": 32,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 32,
+                                "nets": [
+                                    {
+                                        "name": "master_fifo2_axis_tlast_to_uart",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

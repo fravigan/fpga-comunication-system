@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Jun  9 17:58:31 2024
+# Process ID: 9052
+# Current directory: C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/ila_0_synth_1
+# Command line: vivado.exe -log ila_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ila_0.tcl
+# Log file: C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/ila_0_synth_1/ila_0.vds
+# Journal file: C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/ila_0_synth_1\vivado.jou
+# Running On: DESKTOP-0DO9HHF, OS: Windows, CPU Frequency: 2000 MHz, CPU Physical cores: 4, Host memory: 5900 MB
+#-----------------------------------------------------------
+source ila_0.tcl -notrace

@@ -1,0 +1,5 @@
+axis_infrastructure_v1_1_vl_rfs.v,verilog,axis_infrastructure_v1_1_0,../../../ipstatic/hdl/axis_infrastructure_v1_1_vl_rfs.v,incdir="../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+axis_register_slice_v1_1_vl_rfs.v,verilog,axis_register_slice_v1_1_28,../../../ipstatic/hdl/axis_register_slice_v1_1_vl_rfs.v,incdir="../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+axis_switch_v1_1_vl_rfs.v,verilog,axis_switch_v1_1_28,../../../ipstatic/hdl/axis_switch_v1_1_vl_rfs.v,incdir="../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+axis_switch_0.v,verilog,xil_defaultlib,../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_switch_0/sim/axis_switch_0.v,incdir="../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

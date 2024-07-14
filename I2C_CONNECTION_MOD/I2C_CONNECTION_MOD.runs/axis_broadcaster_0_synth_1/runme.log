@@ -1,0 +1,250 @@
+
+*** Running vivado
+    with args -log axis_broadcaster_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source axis_broadcaster_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source axis_broadcaster_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 493.004 ; gain = 200.988
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: axis_broadcaster_0
+Command: synth_design -top axis_broadcaster_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10268
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1332.250 ; gain = 410.422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'axis_broadcaster_0' [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/synth/axis_broadcaster_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'top_axis_broadcaster_0' [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/top_axis_broadcaster_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'axis_broadcaster_v1_1_27_core' [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/axis_broadcaster_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (0#1) [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (0#1) [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
+INFO: [Synth 8-6155] done synthesizing module 'axis_broadcaster_v1_1_27_core' (0#1) [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/axis_broadcaster_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'tdata_axis_broadcaster_0' [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/tdata_axis_broadcaster_0.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'tdata_axis_broadcaster_0' (0#1) [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/tdata_axis_broadcaster_0.v:49]
+INFO: [Synth 8-6157] synthesizing module 'tuser_axis_broadcaster_0' [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/tuser_axis_broadcaster_0.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'tuser_axis_broadcaster_0' (0#1) [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/tuser_axis_broadcaster_0.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'top_axis_broadcaster_0' (0#1) [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/top_axis_broadcaster_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'axis_broadcaster_0' (0#1) [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/synth/axis_broadcaster_0.v:53]
+WARNING: [Synth 8-7129] Port tuser[1] in module tuser_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tuser[0] in module tuser_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdata[15] in module tdata_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdata[14] in module tdata_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdata[13] in module tdata_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdata[12] in module tdata_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdata[11] in module tdata_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdata[10] in module tdata_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdata[9] in module tdata_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdata[8] in module tdata_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TKEEP[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TID[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:39 . Memory (MB): peak = 1429.742 ; gain = 507.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:39 . Memory (MB): peak = 1429.742 ; gain = 507.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:39 . Memory (MB): peak = 1429.742 ; gain = 507.914
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1429.742 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/axis_broadcaster_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/axis_broadcaster_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/axis_broadcaster_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/axis_broadcaster_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1497.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.171 . Memory (MB): peak = 1498.137 ; gain = 0.984
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:41 ; elapsed = 00:01:10 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:41 ; elapsed = 00:01:10 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/axis_broadcaster_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:01:10 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:42 ; elapsed = 00:01:11 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/broadcaster_core/MI_SLOT[0].util_vector2axis' (axis_infrastructure_v1_1_0_util_vector2axis) to 'inst/broadcaster_core/MI_SLOT[1].util_vector2axis'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s_axis_tstrb[0] in module top_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[0] in module top_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[0] in module top_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[0] in module top_axis_broadcaster_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tuser[0] in module top_axis_broadcaster_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:15 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:42 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:42 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:07 ; elapsed = 00:01:43 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:18 ; elapsed = 00:01:54 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:18 ; elapsed = 00:01:54 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:18 ; elapsed = 00:01:54 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:18 ; elapsed = 00:01:54 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:18 ; elapsed = 00:01:54 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:18 ; elapsed = 00:01:54 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     2|
+|2     |LUT5 |     1|
+|3     |LUT6 |     2|
+|4     |FDRE |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:18 ; elapsed = 00:01:54 . Memory (MB): peak = 1498.137 ; gain = 576.309
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:53 ; elapsed = 00:01:44 . Memory (MB): peak = 1498.137 ; gain = 507.914
+Synthesis Optimization Complete : Time (s): cpu = 00:01:18 ; elapsed = 00:01:55 . Memory (MB): peak = 1498.137 ; gain = 576.309
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1498.137 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1498.137 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 767f8aba
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:35 ; elapsed = 00:02:28 . Memory (MB): peak = 1498.137 ; gain = 971.922
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/axis_broadcaster_0_synth_1/axis_broadcaster_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP axis_broadcaster_0, cache-ID = 7f266ad3080c4429
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/axis_broadcaster_0_synth_1/axis_broadcaster_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file axis_broadcaster_0_utilization_synth.rpt -pb axis_broadcaster_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  3 13:01:08 2024...

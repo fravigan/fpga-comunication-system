@@ -1,0 +1,5 @@
+tdata_axis_broadcaster_0.v,verilog,xil_defaultlib,../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_1/hdl/tdata_axis_broadcaster_0.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+tuser_axis_broadcaster_0.v,verilog,xil_defaultlib,../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_1/hdl/tuser_axis_broadcaster_0.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+top_axis_broadcaster_0.v,verilog,xil_defaultlib,../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_1/hdl/top_axis_broadcaster_0.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+axis_broadcaster_0.v,verilog,xil_defaultlib,../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_1/sim/axis_broadcaster_0.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

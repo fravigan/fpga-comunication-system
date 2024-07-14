@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_i2c_middle_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_i2c_middle" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,986.806 ns"></ZoomEndTime>
+      <Cursor1Time time="5,200.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="364"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="73" />
+   <wvobject fp_name="/test_i2c_middle/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/sw_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">sw_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/sw_axis_tready" type="logic">
+      <obj_property name="ElementShortName">sw_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/sw_axis_tdata" type="array">
+      <obj_property name="ElementShortName">sw_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/sw_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">sw_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/sw_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">sw_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/sw_axis_tready" type="logic">
+      <obj_property name="ElementShortName">sw_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/sw_axis_tdata" type="array">
+      <obj_property name="ElementShortName">sw_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/sw_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">sw_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_address" type="array">
+      <obj_property name="ElementShortName">s_axis_cmd_address[6:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_address[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_start" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_start</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_read" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_read</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_write" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_write</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_write_multiple" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_write_multiple</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_write_multiple</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_stop" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_stop</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_valid" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_ready" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_data_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_data_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_data_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/bus_control" type="logic">
+      <obj_property name="ElementShortName">bus_control</obj_property>
+      <obj_property name="ObjectShortName">bus_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/bus_active" type="logic">
+      <obj_property name="ElementShortName">bus_active</obj_property>
+      <obj_property name="ObjectShortName">bus_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/missed_ack" type="logic">
+      <obj_property name="ElementShortName">missed_ack</obj_property>
+      <obj_property name="ObjectShortName">missed_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/prescale" type="array">
+      <obj_property name="ElementShortName">prescale[15:0]</obj_property>
+      <obj_property name="ObjectShortName">prescale[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/stato_reg" type="array">
+      <obj_property name="ElementShortName">stato_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">stato_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/stato_next" type="array">
+      <obj_property name="ElementShortName">stato_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">stato_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/sw_axis_tready_reg" type="logic">
+      <obj_property name="ElementShortName">sw_axis_tready_reg</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tready_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/sw_axis_tready_next" type="logic">
+      <obj_property name="ElementShortName">sw_axis_tready_next</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tready_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_address_next" type="array">
+      <obj_property name="ElementShortName">s_axis_cmd_address_next[6:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_address_next[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_address_reg" type="array">
+      <obj_property name="ElementShortName">s_axis_cmd_address_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_address_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_read_next" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_read_next</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_read_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_read_reg" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_read_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_read_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_write_next" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_write_next</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_write_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_write_reg" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_write_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_write_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_write_multiple_next" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_write_multiple_next</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_write_multiple_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_write_multiple_reg" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_write_multiple_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_write_multiple_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_stop_next" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_stop_next</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_stop_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_stop_reg" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_stop_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_stop_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_valid_next" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_valid_next</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_valid_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_valid_reg" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_valid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_start_reg" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_start_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_start_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_cmd_start_next" type="logic">
+      <obj_property name="ElementShortName">s_axis_cmd_start_next</obj_property>
+      <obj_property name="ObjectShortName">s_axis_cmd_start_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/missed_ack_check_reg" type="logic">
+      <obj_property name="ElementShortName">missed_ack_check_reg</obj_property>
+      <obj_property name="ObjectShortName">missed_ack_check_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/missed_ack_check_next" type="logic">
+      <obj_property name="ElementShortName">missed_ack_check_next</obj_property>
+      <obj_property name="ObjectShortName">missed_ack_check_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_data_tdata_next" type="array">
+      <obj_property name="ElementShortName">s_axis_data_tdata_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tdata_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_data_tdata_reg" type="array">
+      <obj_property name="ElementShortName">s_axis_data_tdata_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tdata_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_data_tvalid_next" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tvalid_next</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tvalid_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/s_axis_data_tvalid_reg" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tvalid_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tvalid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/erase_data_reg" type="array">
+      <obj_property name="ElementShortName">erase_data_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">erase_data_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/erase_data_next" type="array">
+      <obj_property name="ElementShortName">erase_data_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">erase_data_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/scl_i" type="logic">
+      <obj_property name="ElementShortName">scl_i</obj_property>
+      <obj_property name="ObjectShortName">scl_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/sda_i" type="logic">
+      <obj_property name="ElementShortName">sda_i</obj_property>
+      <obj_property name="ObjectShortName">sda_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/scl_o" type="logic">
+      <obj_property name="ElementShortName">scl_o</obj_property>
+      <obj_property name="ObjectShortName">scl_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/sda_o" type="logic">
+      <obj_property name="ElementShortName">sda_o</obj_property>
+      <obj_property name="ObjectShortName">sda_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/i2c_master_impl/m_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/i2c_master_impl/m_axis_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/i2c_master_impl/m_axis_data_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/READ_STATUS" type="array">
+      <obj_property name="ElementShortName">READ_STATUS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_STATUS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/BACK_STATUS" type="array">
+      <obj_property name="ElementShortName">BACK_STATUS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BACK_STATUS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/READ_NUM_BYTE" type="array">
+      <obj_property name="ElementShortName">READ_NUM_BYTE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_NUM_BYTE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/READ_SW" type="array">
+      <obj_property name="ElementShortName">READ_SW[3:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_SW[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/SEND_I2C" type="array">
+      <obj_property name="ElementShortName">SEND_I2C[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SEND_I2C[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/WRITE" type="array">
+      <obj_property name="ElementShortName">WRITE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WRITE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/READ_ADRESS" type="array">
+      <obj_property name="ElementShortName">READ_ADRESS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_ADRESS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/READ" type="array">
+      <obj_property name="ElementShortName">READ[3:0]</obj_property>
+      <obj_property name="ObjectShortName">READ[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/SEND_CMD" type="array">
+      <obj_property name="ElementShortName">SEND_CMD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SEND_CMD[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_i2c_middle/test_middle_impl/ERASE_MISSED_ACK" type="array">
+      <obj_property name="ElementShortName">ERASE_MISSED_ACK[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ERASE_MISSED_ACK[3:0]</obj_property>
+   </wvobject>
+</wave_config>

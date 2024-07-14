@@ -1,0 +1,19 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_i2c_middle_read_behav xil_defaultlib.test_i2c_middle_read xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'stop_on_idle' [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/I2C_middle.v:369]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/I2C_middle.v" Line 6. Module middle doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/I2C_middle.v" Line 6. Module middle doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.i2c_master
+Compiling module xil_defaultlib.middle
+Compiling module xil_defaultlib.test_i2c_middle_read
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_i2c_middle_read_behav

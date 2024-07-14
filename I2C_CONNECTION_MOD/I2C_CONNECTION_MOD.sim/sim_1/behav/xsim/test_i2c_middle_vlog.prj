@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../I2C_CONNECTION_MOD.ip_user_files/ipstatic/hdl" \
+"../../../../../../Sorgenti/I2C_CONNECTION_MOD/I2C_middle.v" \
+"../../../../../../Sorgenti/I2C_CONNECTION_MOD/i2c_master.v" \
+"../../../../../../Sorgenti/I2C_CONNECTION_MOD/I2C_middle_tb_write.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,393 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jun 20 12:21:21 2024
+# Process ID: 3088
+# Current directory: C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/top.vds
+# Journal file: C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1\vivado.jou
+# Running On: DESKTOP-0DO9HHF, OS: Windows, CPU Frequency: 1997 MHz, CPU Physical cores: 4, Host memory: 5900 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 493.207 ; gain = 199.062
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.srcs/utils_1/imports/synth_1/top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1596
+INFO: [Synth 8-11241] undeclared symbol 'scl_tT', assumed default net type 'wire' [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/top.v:342]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1336.562 ; gain = 410.770
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/top.v:6]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/uart_rx.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (0#1) [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/uart_rx.v:9]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/uart_tx.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (0#1) [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/uart_tx.v:10]
+INFO: [Synth 8-6157] synthesizing module 'laster' [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/laster.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'laster' (0#1) [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/laster.v:6]
+INFO: [Synth 8-6157] synthesizing module 'axis_data_fifo_0' [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/.Xil/Vivado-3088-DESKTOP-0DO9HHF/realtime/axis_data_fifo_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axis_data_fifo_0' (0#1) [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/.Xil/Vivado-3088-DESKTOP-0DO9HHF/realtime/axis_data_fifo_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'axis_data_fifo_1' [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/.Xil/Vivado-3088-DESKTOP-0DO9HHF/realtime/axis_data_fifo_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axis_data_fifo_1' (0#1) [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/.Xil/Vivado-3088-DESKTOP-0DO9HHF/realtime/axis_data_fifo_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'axis_switch_0' [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/.Xil/Vivado-3088-DESKTOP-0DO9HHF/realtime/axis_switch_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axis_switch_0' (0#1) [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/.Xil/Vivado-3088-DESKTOP-0DO9HHF/realtime/axis_switch_0_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 's_axis_tready' does not match port width (2) of module 'axis_switch_0' [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/top.v:191]
+INFO: [Synth 8-6157] synthesizing module 'middle' [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/I2C_middle.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/I2C_middle.v:232]
+INFO: [Synth 8-6155] done synthesizing module 'middle' (0#1) [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/I2C_middle.v:6]
+INFO: [Synth 8-6157] synthesizing module 'i2c_master' [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/i2c_master.v:32]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/i2c_master.v:333]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/i2c_master.v:638]
+INFO: [Synth 8-6155] done synthesizing module 'i2c_master' (0#1) [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/i2c_master.v:32]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76334]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76334]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/top.v:6]
+WARNING: [Synth 8-6014] Unused sequential element last_scl_i_reg_reg was removed.  [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/i2c_master.v:289]
+WARNING: [Synth 8-3848] Net scl_tT in module/entity top does not have driver. [C:/Users/Francesco/Documents/TESI/Sorgenti/I2C_CONNECTION_MOD/top.v:342]
+WARNING: [Synth 8-3917] design top has port scl_pup driven by constant 1
+WARNING: [Synth 8-3917] design top has port sda_pup driven by constant 1
+WARNING: [Synth 8-7129] Port m_axis_data_tlast in module middle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port uart_rx_break in module laster is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1446.402 ; gain = 520.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1446.402 ; gain = 520.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1446.402 ; gain = 520.609
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1446.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_data_fifo_1/axis_data_fifo_1/axis_data_fifo_0_in_context.xdc] for cell 'impl_fifo2'
+Finished Parsing XDC File [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_data_fifo_1/axis_data_fifo_1/axis_data_fifo_0_in_context.xdc] for cell 'impl_fifo2'
+Parsing XDC File [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_switch_0/axis_switch_0/axis_switch_0_in_context.xdc] for cell 'impl_switch'
+Finished Parsing XDC File [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_switch_0/axis_switch_0/axis_switch_0_in_context.xdc] for cell 'impl_switch'
+Parsing XDC File [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_data_fifo_0/axis_data_fifo_0/axis_data_fifo_0_in_context.xdc] for cell 'impl_fifo'
+Finished Parsing XDC File [c:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.gen/sources_1/ip/axis_data_fifo_0/axis_data_fifo_0/axis_data_fifo_0_in_context.xdc] for cell 'impl_fifo'
+Parsing XDC File [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.srcs/constrs_1/imports/digilent-xdc-master/Arty-A7-100-Master.xdc]
+Finished Parsing XDC File [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.srcs/constrs_1/imports/digilent-xdc-master/Arty-A7-100-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.srcs/constrs_1/imports/digilent-xdc-master/Arty-A7-100-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1550.164 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1550.164 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'impl_switch' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:36 ; elapsed = 00:00:50 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:50 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for impl_fifo2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for impl_switch. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for impl_fifo. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:50 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_state_reg' in module 'uart_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_state_reg' in module 'uart_tx'
+INFO: [Synth 8-802] inferred FSM for state register 'stato_reg_reg' in module 'middle'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'i2c_master'
+INFO: [Synth 8-802] inferred FSM for state register 'phy_state_reg_reg' in module 'i2c_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                FSM_IDLE |                               00 |                              000
+               FSM_START |                               11 |                              001
+                FSM_RECV |                               10 |                              010
+                FSM_STOP |                               01 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_state_reg' using encoding 'sequential' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                FSM_IDLE |                               00 |                              000
+               FSM_START |                               11 |                              001
+                FSM_SEND |                               10 |                              010
+                FSM_STOP |                               01 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_state_reg' using encoding 'sequential' in module 'uart_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                       0000000001 |                         00000000
+             READ_ADRESS |                       0000000010 |                         00000111
+          SEND_CMD_WRITE |                       0000000100 |                         00001001
+        READ_SW_TO_WRITE |                       0000001000 |                         00000100
+       SEND_I2C_TO_WRITE |                       0000010000 |                         00000101
+        ERASE_MISSED_ACK |                       0000100000 |                         00001010
+           READ_NUM_BYTE |                       0001000000 |                         00000011
+          VALID_CMD_READ |                       0010000000 |                         00000010
+                    READ |                       0100000000 |                         00001000
+              WAIT_FIFO2 |                       1000000000 |                         00000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'stato_reg_reg' using encoding 'one-hot' in module 'middle'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                     000000000001 |                            00000
+        STATE_START_WAIT |                     000000000010 |                            00011
+         STATE_ADDRESS_1 |                     000000000100 |                            00101
+         STATE_ADDRESS_2 |                     000000001000 |                            00110
+              STATE_READ |                     000000010000 |                            01010
+       STATE_ACTIVE_READ |                     000000100000 |                            00010
+             STATE_START |                     000001000000 |                            00100
+              STATE_STOP |                     000010000000 |                            01011
+           STATE_WRITE_1 |                     000100000000 |                            00111
+           STATE_WRITE_2 |                     001000000000 |                            01000
+           STATE_WRITE_3 |                     010000000000 |                            01001
+      STATE_ACTIVE_WRITE |                     100000000000 |                            00001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'i2c_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+          PHY_STATE_IDLE |                             0000 |                            00000
+       PHY_STATE_START_1 |                             0001 |                            00100
+       PHY_STATE_START_2 |                             0010 |                            00101
+        PHY_STATE_ACTIVE |                             0011 |                            00001
+PHY_STATE_REPEATED_START_1 |                             0100 |                            00010
+PHY_STATE_REPEATED_START_2 |                             0101 |                            00011
+   PHY_STATE_WRITE_BIT_1 |                             0110 |                            00110
+   PHY_STATE_WRITE_BIT_2 |                             0111 |                            00111
+   PHY_STATE_WRITE_BIT_3 |                             1000 |                            01000
+    PHY_STATE_READ_BIT_1 |                             1001 |                            01001
+    PHY_STATE_READ_BIT_2 |                             1010 |                            01010
+    PHY_STATE_READ_BIT_3 |                             1011 |                            01011
+    PHY_STATE_READ_BIT_4 |                             1100 |                            01100
+        PHY_STATE_STOP_1 |                             1101 |                            01101
+        PHY_STATE_STOP_2 |                             1110 |                            01110
+        PHY_STATE_STOP_3 |                             1111 |                            01111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'phy_state_reg_reg' using encoding 'sequential' in module 'i2c_master'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 8     
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 40    
++---Muxes : 
+	   2 Input   17 Bit        Muxes := 1     
+	  16 Input   17 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 3     
+	  12 Input   12 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 23    
+	  10 Input   10 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 18    
+	   2 Input    8 Bit        Muxes := 3     
+	  10 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 1     
+	  12 Input    8 Bit        Muxes := 1     
+	  12 Input    4 Bit        Muxes := 1     
+	  22 Input    4 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 12    
+	   4 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 61    
+	   3 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 2     
+	  10 Input    1 Bit        Muxes := 21    
+	  12 Input    1 Bit        Muxes := 16    
+	  16 Input    1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design top has port scl_pup driven by constant 1
+WARNING: [Synth 8-3917] design top has port sda_pup driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:01 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:26 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:10 ; elapsed = 00:01:29 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:10 ; elapsed = 00:01:29 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:19 ; elapsed = 00:01:38 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:19 ; elapsed = 00:01:38 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:19 ; elapsed = 00:01:39 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:19 ; elapsed = 00:01:39 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:20 ; elapsed = 00:01:39 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:20 ; elapsed = 00:01:39 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |axis_data_fifo_0 |         1|
+|2     |axis_data_fifo_1 |         1|
+|3     |axis_switch_0    |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |axis_data_fifo |     2|
+|3     |axis_switch    |     1|
+|4     |BUFG           |     1|
+|5     |CARRY4         |    23|
+|6     |LUT1           |    21|
+|7     |LUT2           |    65|
+|8     |LUT3           |    24|
+|9     |LUT4           |    69|
+|10    |LUT5           |    44|
+|11    |LUT6           |    85|
+|12    |FDRE           |   240|
+|13    |FDSE           |     9|
+|14    |IBUF           |     3|
+|15    |IOBUF          |     2|
+|16    |OBUF           |     3|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:20 ; elapsed = 00:01:39 . Memory (MB): peak = 1550.977 ; gain = 625.184
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:56 ; elapsed = 00:01:31 . Memory (MB): peak = 1550.977 ; gain = 520.609
+Synthesis Optimization Complete : Time (s): cpu = 00:01:20 ; elapsed = 00:01:39 . Memory (MB): peak = 1550.977 ; gain = 625.184
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1550.977 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1550.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Synth Design complete | Checksum: 18de0898
+INFO: [Common 17-83] Releasing license: Synthesis
+57 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:34 ; elapsed = 00:02:00 . Memory (MB): peak = 1550.977 ; gain = 1022.887
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 20 12:23:49 2024...

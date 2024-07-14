@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Francesco/Documents/TESI/Progetti/I2C_CONNECTION_MOD/I2C_CONNECTION_MOD.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="12"></ZoomEndTime>
+      <Cursor1Time time="0"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="350"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="I2C_axis_cmd_ready_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">I2C_axis_cmd_ready_to_middle</obj_property>
+      <obj_property name="ObjectShortName">I2C_axis_cmd_ready_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="I2C_axis_data_tready_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">I2C_axis_data_tready_to_middle</obj_property>
+      <obj_property name="ObjectShortName">I2C_axis_data_tready_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="I2C_bus_active_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">I2C_bus_active_to_middle</obj_property>
+      <obj_property name="ObjectShortName">I2C_bus_active_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="I2C_bus_control_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">I2C_bus_control_to_middle</obj_property>
+      <obj_property name="ObjectShortName">I2C_bus_control_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="I2C_busy_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">I2C_busy_to_middle</obj_property>
+      <obj_property name="ObjectShortName">I2C_busy_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="I2C_missed_ack_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">I2C_missed_ack_to_middle</obj_property>
+      <obj_property name="ObjectShortName">I2C_missed_ack_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="master_I2C_axis_data_tlast_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">master_I2C_axis_data_tlast_to_middle</obj_property>
+      <obj_property name="ObjectShortName">master_I2C_axis_data_tlast_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="master_I2C_axis_data_tvalid_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">master_I2C_axis_data_tvalid_to_middle</obj_property>
+      <obj_property name="ObjectShortName">master_I2C_axis_data_tvalid_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_cmd_address_to_I2C" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_cmd_address_to_I2C[6:0]</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_cmd_address_to_I2C[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_cmd_read_to_I2C" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_cmd_read_to_I2C</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_cmd_read_to_I2C</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_cmd_start_to_I2C" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_cmd_start_to_I2C</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_cmd_start_to_I2C</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_cmd_stop_to_I2C" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_cmd_stop_to_I2C</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_cmd_stop_to_I2C</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_cmd_valid_to_I2C" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_cmd_valid_to_I2C</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_cmd_valid_to_I2C</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_cmd_write_multiple_to_I2C" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_cmd_write_multiple_to_I2C</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_cmd_write_multiple_to_I2C</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_cmd_write_to_I2C" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_cmd_write_to_I2C</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_cmd_write_to_I2C</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_data_tdata_to_I2C" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_data_tdata_to_I2C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_data_tdata_to_I2C[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_data_tlast_to_I2C" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_data_tlast_to_I2C</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_data_tlast_to_I2C</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_data_tready_to_master_I2C" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_data_tready_to_master_I2C</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_data_tready_to_master_I2C</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_data_tvalid_to_I2C" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_data_tvalid_to_I2C</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_data_tvalid_to_I2C</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="middle_axis_tready_to_switch" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">middle_axis_tready_to_switch</obj_property>
+      <obj_property name="ObjectShortName">middle_axis_tready_to_switch</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="sw_axis_tdata_to_middle" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">sw_axis_tdata_to_middle[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tdata_to_middle[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="sw_axis_tlast_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">sw_axis_tlast_to_middle</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tlast_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="sw_axis_tvalid_to_middle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">sw_axis_tvalid_to_middle</obj_property>
+      <obj_property name="ObjectShortName">sw_axis_tvalid_to_middle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="master_I2C_axis_data_tdata_to_middle" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">master_I2C_axis_data_tdata_to_middle[7:0]</obj_property>
+      <obj_property name="ObjectShortName">master_I2C_axis_data_tdata_to_middle[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "test_i2c_middle_behav" "xil_defaultlib.test_i2c_middle" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,2 @@
+axis_switch_0.v,verilog,xil_defaultlib,../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_switch_0/sim/axis_switch_0.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

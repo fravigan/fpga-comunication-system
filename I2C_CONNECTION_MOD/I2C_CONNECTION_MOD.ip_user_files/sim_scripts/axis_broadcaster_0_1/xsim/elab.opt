@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt 2  -L axis_infrastructure_v1_1_0 -L xil_defaultlib -L axis_broadcaster_v1_1_27 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_broadcaster_0 xil_defaultlib.axis_broadcaster_0 xil_defaultlib.glbl -log elaborate.log

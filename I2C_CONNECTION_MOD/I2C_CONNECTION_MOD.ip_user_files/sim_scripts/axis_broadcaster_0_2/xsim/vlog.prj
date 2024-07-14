@@ -1,0 +1,10 @@
+verilog xil_defaultlib --include "../../../ipstatic/hdl" \
+"../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/tdata_axis_broadcaster_0.v" \
+"../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/tuser_axis_broadcaster_0.v" \
+"../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/hdl/top_axis_broadcaster_0.v" \
+"../../../../I2C_CONNECTION_MOD.gen/sources_1/ip/axis_broadcaster_0_2/sim/axis_broadcaster_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
