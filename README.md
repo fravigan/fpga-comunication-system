@@ -1,5 +1,6 @@
-Programmi in Verilog per un sistema di comunicazione PC <-> I2C sviluppato per un progetto di Tesi Triennale in Fisica presso l'Università Bicocca di Milano.
+Programmi sviluppati per un sistema di comunicazione PC <-> FPGA <-> I2C sviluppato per un progetto di Tesi Triennale in Fisica con titolo "Sistema di comunicazione ottico basato su FPGA per l’esperimento CUPID".
 I programmi qui presenti devono essere completati con IP fornite da Xilinx Vivado per il corretto funzionamento.
+Si riporta anche uno schema del design con tutti gli IP utilizzati.
 
 VERILOG CODES
 
@@ -31,3 +32,7 @@ read_I2C.m -> funzione Matlab per generare la sequenza di bytes necessaria ad av
 term_display_test.mlx -> script Matlab che invia le sequenze di bytes all'FPGA tramite protocollo seriale UART ed attende eventuali bytes letti da una periferica 
 
 CS.mlx -> script Matlab per verificare lo status dell' I2C tramite il comando Controllo Status (CS)
+
+SCHEMA
+
+design.png -> Schema del design
